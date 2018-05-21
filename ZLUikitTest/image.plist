@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>greenMan</string>
+		<key>desc</key>
+		<string>绿巨人</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>gun</string>
+		<key>desc</key>
+		<string>枪</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>showLove</string>
+		<key>desc</key>
+		<string>爱</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>tangTiger</string>
+		<key>desc</key>
+		<string>唐伯虎</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>threeDog</string>
+		<key>desc</key>
+		<string>狗</string>
+	</dict>
+</array>
+</plist>
