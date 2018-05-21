@@ -115,12 +115,12 @@ static const CGFloat kTopSpace = 30;
     }
     //UIImageView animation test code
     {
-        self.zlImageView = [[UIImageView alloc] initWithFrame:CGRectMake(kMargin , topSpace + 400, kTopViewWidth, kTopViewHeight)];
+        self.zlImageView = [[UIImageView alloc] initWithFrame:CGRectMake(kMargin , topSpace + 400, kTopViewWidth, kTopViewHeight + 40)];
         
-        self.pre =[[UIButton alloc] initWithFrame:CGRectMake(kMargin , topSpace + 450, 40, kTopViewHeight)];
-        self.next =[[UIButton alloc] initWithFrame:CGRectMake(kMargin + kTopViewWidth - 40 , topSpace + 450, 40, kTopViewHeight)];
+        self.pre =[[UIButton alloc] initWithFrame:CGRectMake(kMargin , topSpace + 490, 40, kTopViewHeight)];
+        self.next =[[UIButton alloc] initWithFrame:CGRectMake(kMargin + kTopViewWidth - 40 , topSpace + 490, 40, kTopViewHeight)];
         
-        self.play =[[UIButton alloc] initWithFrame:CGRectMake(kMargin + (kTopViewWidth - 40)/2 , topSpace + 450, 40, kTopViewHeight)];
+        self.play =[[UIButton alloc] initWithFrame:CGRectMake(kMargin + (kTopViewWidth - 40)/2 , topSpace + 490, 40, kTopViewHeight)];
         
         self.zlImageView.backgroundColor = [UIColor orangeColor];
         
@@ -183,6 +183,7 @@ static const CGFloat kTopSpace = 30;
 }
 - (void)preButtonAction
 {
+    if (self.index > 1)
     self.index--;
     if ([self.zlImageView isAnimating])
     {
@@ -192,6 +193,7 @@ static const CGFloat kTopSpace = 30;
 }
 - (void)nextButtonAction
 {
+    if (self.index < self.plist.count)
     self.index++;
     if ([self.zlImageView isAnimating])
     {
