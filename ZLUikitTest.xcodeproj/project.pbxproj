@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6028C1720B26567000C2D55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6028C1620B26567000C2D55 /* AppDelegate.m */; };
+		B6028C1A20B26567000C2D55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6028C1920B26567000C2D55 /* ViewController.m */; };
+		B6028C1D20B26567000C2D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6028C1B20B26567000C2D55 /* Main.storyboard */; };
+		B6028C2020B26567000C2D55 /* ZLUikitTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6028C1E20B26567000C2D55 /* ZLUikitTest.xcdatamodeld */; };
+		B6028C2220B26568000C2D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6028C2120B26568000C2D55 /* Assets.xcassets */; };
+		B6028C2520B26568000C2D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6028C2320B26568000C2D55 /* LaunchScreen.storyboard */; };
+		B6028C2820B26568000C2D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6028C2720B26568000C2D55 /* main.m */; };
+		B6028C3220B26568000C2D55 /* ZLUikitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6028C3120B26568000C2D55 /* ZLUikitTestTests.m */; };
+		B6028C3D20B26568000C2D55 /* ZLUikitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6028C3C20B26568000C2D55 /* ZLUikitTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6028C2E20B26568000C2D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6028C0A20B26566000C2D55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6028C1120B26567000C2D55;
+			remoteInfo = ZLUikitTest;
+		};
+		B6028C3920B26568000C2D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6028C0A20B26566000C2D55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6028C1120B26567000C2D55;
+			remoteInfo = ZLUikitTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6028C1220B26567000C2D55 /* ZLUikitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLUikitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6028C1520B26567000C2D55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6028C1620B26567000C2D55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6028C1820B26567000C2D55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6028C1920B26567000C2D55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6028C1C20B26567000C2D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6028C1F20B26567000C2D55 /* ZLUikitTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZLUikitTest.xcdatamodel; sourceTree = "<group>"; };
+		B6028C2120B26568000C2D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6028C2420B26568000C2D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6028C2620B26568000C2D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6028C2720B26568000C2D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6028C2D20B26568000C2D55 /* ZLUikitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLUikitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6028C3120B26568000C2D55 /* ZLUikitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLUikitTestTests.m; sourceTree = "<group>"; };
+		B6028C3320B26568000C2D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6028C3820B26568000C2D55 /* ZLUikitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLUikitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6028C3C20B26568000C2D55 /* ZLUikitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLUikitTestUITests.m; sourceTree = "<group>"; };
+		B6028C3E20B26568000C2D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6028C0F20B26567000C2D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6028C2A20B26568000C2D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6028C3520B26568000C2D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6028C0920B26566000C2D55 = {
+			isa = PBXGroup;
+			children = (
+				B6028C1420B26567000C2D55 /* ZLUikitTest */,
+				B6028C3020B26568000C2D55 /* ZLUikitTestTests */,
+				B6028C3B20B26568000C2D55 /* ZLUikitTestUITests */,
+				B6028C1320B26567000C2D55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6028C1320B26567000C2D55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6028C1220B26567000C2D55 /* ZLUikitTest.app */,
+				B6028C2D20B26568000C2D55 /* ZLUikitTestTests.xctest */,
+				B6028C3820B26568000C2D55 /* ZLUikitTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6028C1420B26567000C2D55 /* ZLUikitTest */ = {
+			isa = PBXGroup;
+			children = (
+				B6028C1520B26567000C2D55 /* AppDelegate.h */,
+				B6028C1620B26567000C2D55 /* AppDelegate.m */,
+				B6028C1820B26567000C2D55 /* ViewController.h */,
+				B6028C1920B26567000C2D55 /* ViewController.m */,
+				B6028C1B20B26567000C2D55 /* Main.storyboard */,
+				B6028C2120B26568000C2D55 /* Assets.xcassets */,
+				B6028C2320B26568000C2D55 /* LaunchScreen.storyboard */,
+				B6028C2620B26568000C2D55 /* Info.plist */,
+				B6028C2720B26568000C2D55 /* main.m */,
+				B6028C1E20B26567000C2D55 /* ZLUikitTest.xcdatamodeld */,
+			);
+			path = ZLUikitTest;
+			sourceTree = "<group>";
+		};
+		B6028C3020B26568000C2D55 /* ZLUikitTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6028C3120B26568000C2D55 /* ZLUikitTestTests.m */,
+				B6028C3320B26568000C2D55 /* Info.plist */,
+			);
+			path = ZLUikitTestTests;
+			sourceTree = "<group>";
+		};
+		B6028C3B20B26568000C2D55 /* ZLUikitTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6028C3C20B26568000C2D55 /* ZLUikitTestUITests.m */,
+				B6028C3E20B26568000C2D55 /* Info.plist */,
+			);
+			path = ZLUikitTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6028C1120B26567000C2D55 /* ZLUikitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6028C4120B26568000C2D55 /* Build configuration list for PBXNativeTarget "ZLUikitTest" */;
+			buildPhases = (
+				B6028C0E20B26567000C2D55 /* Sources */,
+				B6028C0F20B26567000C2D55 /* Frameworks */,
+				B6028C1020B26567000C2D55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLUikitTest;
+			productName = ZLUikitTest;
+			productReference = B6028C1220B26567000C2D55 /* ZLUikitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6028C2C20B26568000C2D55 /* ZLUikitTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6028C4420B26568000C2D55 /* Build configuration list for PBXNativeTarget "ZLUikitTestTests" */;
+			buildPhases = (
+				B6028C2920B26568000C2D55 /* Sources */,
+				B6028C2A20B26568000C2D55 /* Frameworks */,
+				B6028C2B20B26568000C2D55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6028C2F20B26568000C2D55 /* PBXTargetDependency */,
+			);
+			name = ZLUikitTestTests;
+			productName = ZLUikitTestTests;
+			productReference = B6028C2D20B26568000C2D55 /* ZLUikitTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6028C3720B26568000C2D55 /* ZLUikitTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6028C4720B26568000C2D55 /* Build configuration list for PBXNativeTarget "ZLUikitTestUITests" */;
+			buildPhases = (
+				B6028C3420B26568000C2D55 /* Sources */,
+				B6028C3520B26568000C2D55 /* Frameworks */,
+				B6028C3620B26568000C2D55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6028C3A20B26568000C2D55 /* PBXTargetDependency */,
+			);
+			name = ZLUikitTestUITests;
+			productName = ZLUikitTestUITests;
+			productReference = B6028C3820B26568000C2D55 /* ZLUikitTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6028C0A20B26566000C2D55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = zhulin;
+				TargetAttributes = {
+					B6028C1120B26567000C2D55 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					B6028C2C20B26568000C2D55 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = B6028C1120B26567000C2D55;
+					};
+					B6028C3720B26568000C2D55 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = B6028C1120B26567000C2D55;
+					};
+				};
+			};
+			buildConfigurationList = B6028C0D20B26566000C2D55 /* Build configuration list for PBXProject "ZLUikitTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6028C0920B26566000C2D55;
+			productRefGroup = B6028C1320B26567000C2D55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6028C1120B26567000C2D55 /* ZLUikitTest */,
+				B6028C2C20B26568000C2D55 /* ZLUikitTestTests */,
+				B6028C3720B26568000C2D55 /* ZLUikitTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6028C1020B26567000C2D55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6028C2520B26568000C2D55 /* LaunchScreen.storyboard in Resources */,
+				B6028C2220B26568000C2D55 /* Assets.xcassets in Resources */,
+				B6028C1D20B26567000C2D55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6028C2B20B26568000C2D55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6028C3620B26568000C2D55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6028C0E20B26567000C2D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6028C2020B26567000C2D55 /* ZLUikitTest.xcdatamodeld in Sources */,
+				B6028C1A20B26567000C2D55 /* ViewController.m in Sources */,
+				B6028C2820B26568000C2D55 /* main.m in Sources */,
+				B6028C1720B26567000C2D55 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6028C2920B26568000C2D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6028C3220B26568000C2D55 /* ZLUikitTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6028C3420B26568000C2D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6028C3D20B26568000C2D55 /* ZLUikitTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6028C2F20B26568000C2D55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6028C1120B26567000C2D55 /* ZLUikitTest */;
+			targetProxy = B6028C2E20B26568000C2D55 /* PBXContainerItemProxy */;
+		};
+		B6028C3A20B26568000C2D55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6028C1120B26567000C2D55 /* ZLUikitTest */;
+			targetProxy = B6028C3920B26568000C2D55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6028C1B20B26567000C2D55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6028C1C20B26567000C2D55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6028C2320B26568000C2D55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6028C2420B26568000C2D55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6028C3F20B26568000C2D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6028C4020B26568000C2D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6028C4220B26568000C2D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZLUikitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.ZLUikitTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6028C4320B26568000C2D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZLUikitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.ZLUikitTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6028C4520B26568000C2D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZLUikitTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.ZLUikitTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLUikitTest.app/ZLUikitTest";
+			};
+			name = Debug;
+		};
+		B6028C4620B26568000C2D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZLUikitTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.ZLUikitTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLUikitTest.app/ZLUikitTest";
+			};
+			name = Release;
+		};
+		B6028C4820B26568000C2D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZLUikitTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.ZLUikitTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZLUikitTest;
+			};
+			name = Debug;
+		};
+		B6028C4920B26568000C2D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZLUikitTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.ZLUikitTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZLUikitTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6028C0D20B26566000C2D55 /* Build configuration list for PBXProject "ZLUikitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6028C3F20B26568000C2D55 /* Debug */,
+				B6028C4020B26568000C2D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6028C4120B26568000C2D55 /* Build configuration list for PBXNativeTarget "ZLUikitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6028C4220B26568000C2D55 /* Debug */,
+				B6028C4320B26568000C2D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6028C4420B26568000C2D55 /* Build configuration list for PBXNativeTarget "ZLUikitTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6028C4520B26568000C2D55 /* Debug */,
+				B6028C4620B26568000C2D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6028C4720B26568000C2D55 /* Build configuration list for PBXNativeTarget "ZLUikitTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6028C4820B26568000C2D55 /* Debug */,
+				B6028C4920B26568000C2D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B6028C1E20B26567000C2D55 /* ZLUikitTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6028C1F20B26567000C2D55 /* ZLUikitTest.xcdatamodel */,
+			);
+			currentVersion = B6028C1F20B26567000C2D55 /* ZLUikitTest.xcdatamodel */;
+			path = ZLUikitTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B6028C0A20B26566000C2D55 /* Project object */;
+}
