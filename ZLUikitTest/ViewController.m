@@ -141,6 +141,8 @@ static const CGFloat kTopSpace = 30;
         [self.next addTarget:self action:@selector(nextButtonAction) forControlEvents:UIControlEventTouchUpInside];
         [self.play addTarget:self action:@selector(playButtonAction) forControlEvents:UIControlEventTouchUpInside];
         
+        self.pre.enabled = NO;
+        
         [self.view addSubview:self.zlImageView];
         [self.view addSubview:self.pre];
         [self.view addSubview:self.next];
@@ -183,34 +185,29 @@ static const CGFloat kTopSpace = 30;
 }
 - (void)preButtonAction
 {
-    if (self.index > 1)
-    self.index--;
-    if ([self.zlImageView isAnimating])
-    {
-        [self.zlImageView stopAnimating];
-    }
-    [self changeMovie];
-}
-- (void)nextButtonAction
-{
-    if (self.index < self.plist.count)
-    self.index++;
-    if ([self.zlImageView isAnimating])
-    {
-        [self.zlImageView stopAnimating];
-    }
-    [self changeMovie];
-}
--(void) playButtonAction
-{
-    if ([self.zlImageView isAnimating]) {
-        return;
-    }
     if (self.index == 1)
     {
         self.pre.enabled = NO;
     }
-    else if (self.index == self.plist.count)
+    else
+    {
+        self.pre.enabled = YES;
+        self.next.enabled = YES;
+        self.index--;
+        if ([self.zlImageView isAnimating])
+        {
+            [self.zlImageView stopAnimating];
+        }
+        [self changeMovie];
+    }
+
+    
+    
+
+}
+- (void)nextButtonAction
+{
+    if (self.index == self.plist.count)
     {
         self.next.enabled = NO;
     }
@@ -218,7 +215,20 @@ static const CGFloat kTopSpace = 30;
     {
         self.pre.enabled = YES;
         self.next.enabled = YES;
+        self.index++;
+        if ([self.zlImageView isAnimating])
+        {
+            [self.zlImageView stopAnimating];
+        }
+        [self changeMovie];
     }
+}
+-(void) playButtonAction
+{
+    if ([self.zlImageView isAnimating]) {
+        return;
+    }
+    
     int i = 1;
     NSMutableArray * currentArray = [NSMutableArray array];
     while(1){
